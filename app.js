@@ -4,9 +4,11 @@
     
     //DB name is urlshortnerdb
     //var url = "mongodb://localhost:27017/urlshortnerdb";
-    var url = "mongodb://dbuser:MyPass1@ds141185.mlab.com:41185/hussurlshortner";
+    //var url = "mongodb://dbuser:MyPass1@ds141185.mlab.com:41185/hussurlshortner";
     
-
+    var config = require('./config');
+    var url = 'mongodb://' + config.db.host + '/' + config.db.name;
+    console.log(url);
 
     var myApp = express();
     
