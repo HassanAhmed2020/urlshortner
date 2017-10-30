@@ -3,15 +3,15 @@
     
     <h1> URL Shortner API Microservice</h1>
     <p> This is a URL Shortner microservice. </p>
-    <p> you can pass it unix time or natural time and date</p>
+    <p> You can give it a URL and it will return you a shortened URL. If  you hit the shortened URL it will take you to the original website See below for examples</p>
     <ul>
-        <li> To give usnix time: http://url/1497225600000</li>
-        <li> To give natural time: http://url/June 12, 2078</li>
+        <li> https://little-url.herokuapp.com/new/https://www.google.com</li>
+        <li> https://little-url.herokuapp.com/new/http://foo.com:80</li>
     </ul>
     
-    <h4> API will return you JSON data back in following format:</h4>
+    <h4> API will return you JSON data back and it will redirect you if you click the link below</h4>
     <ul>
-        <li> {unixTime: 34323423232, naturalTime: 'February 02, 1971'} </li>
+        <li> https://little-url.herokuapp.com/2871</li>
     </ul>
  
  
