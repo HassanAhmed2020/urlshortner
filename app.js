@@ -3,7 +3,8 @@
     var MongoClient = require('mongodb').MongoClient;
     
     //DB name is urlshortnerdb
-    var url = "mongodb://localhost:27017/urlshortnerdb";
+    //var url = "mongodb://localhost:27017/urlshortnerdb";
+    var url = "mongodb://dbuser:MyPass1@ds141185.mlab.com:41185/hussurlshortner";
     
 
 
