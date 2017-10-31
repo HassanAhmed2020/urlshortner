@@ -127,7 +127,7 @@
                                                                                                 else
                                                                                                 {
                                                                                                     newIdNum = result[0].idNum + 1;
-                                                                                                    myobj = { originalURL: inputURL[0], idNum: newIdNum, shortURL: inputURL[0] + "/" + newIdNum };
+                                                                                                    myobj = { originalURL: inputURL[0], idNum: newIdNum, shortURL: "https://huss-urlshortner.herokuapp.com/" + newIdNum };
                                                                                                 }
                                                                                                 
                                                                                                 
